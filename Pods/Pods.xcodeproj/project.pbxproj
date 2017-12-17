@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BC010F1CB58E344209A012929B2803 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80868BFF78EDC137CDC0C3D5843988C5 /* octicons.ttf */; };
+		113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C927677E993E79E758E1E80370C4164 /* FAKFontAwesome.m */; };
+		1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D32DFAA3EB8B3D7E54534FDF7E5BA47E /* foundation-icons.ttf */; };
+		1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */ = {isa = PBXBuildFile; fileRef = C0DD3C17CDD6D1CC785181BF192440B6 /* FAKOcticons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */; };
+		332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = DAED981DBA9EED999651868DECD0ECB4 /* FAKZocial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3603AD2F9DEDA25F609ACCDF421A4B81 /* Pods-airbnb-cloneTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8EFB6F1E0D98DB0639C4A5DC2FB1AB /* Pods-airbnb-cloneTests-dummy.m */; };
+		37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 18162EA8F4A866BE033E5CC65A3AC824 /* FAKIcon.m */; };
+		3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 257727C67DE02B8DE00C3CB25AE764F9 /* FAKIcon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AE81B259ECEC5146BF11020FD5DE3CA /* Pods-airbnb-cloneUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8EE7E441CCB0C515BD3B822A4538FC /* Pods-airbnb-cloneUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = A1AAF976459FCC5536AE30E2F4347EFF /* FAKFoundationIcons.m */; };
+		4C1D30CD76D52F393226A2B2581430F9 /* Pods-airbnb-cloneTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00831CFD3D1385534BF015BAB2F510E0 /* Pods-airbnb-cloneTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = C37DCD288BB07B95114F8ADC43DB28E9 /* FAKFontAwesome.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F908330777D6152B9CF6750E3434557 /* FAKOcticons.m */; };
+		61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7494A98982B2E910DEA52CFC4EF17916 /* FontAwesome.otf */; };
+		6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CDD71B3A4B9117646C856CD62D58C90 /* zocial-regular-webfont.ttf */; };
+		6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DC3ABB769FA2517FB1D27D2960A25A /* FAKIonIcons.m */; };
+		70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 956CD1BC1C02216050F78A9A9D2657AA /* FAKFoundationIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		759D6907B559283E39BF4D86ACB16ACE /* Pods-airbnb-clone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4996233AF3898BF2B161FC5C45B936B /* Pods-airbnb-clone-dummy.m */; };
+		7E006091C5B7912E5147003B04840B46 /* Pods-airbnb-clone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB7E8562081226D116ED77B6A4BE811C /* Pods-airbnb-clone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9754D187F140D4A336ABEDBB28C5EC6D /* FAKMaterialIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85B2E26A5D4BCC8B6F5FDC262344A711 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DA1A786EAC503ACEFF76AA922C8555 /* FontAwesomeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 65771F32033A02053CA6AF69757AC14B /* FontAwesomeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77F5D7583785A4679AEC64ABE0BCEE4F /* ionicons.ttf */; };
+		B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = F708C2EC064B297600F92C2A1AA548E1 /* FAKMaterialIcons.m */; };
+		C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0172A862950BD37CA3F207328F878484 /* FontAwesomeKit-dummy.m */; };
+		D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B39383124D076445B9F42272C798002 /* FAKIonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = D40BDF5C5C580A4C0A9DB5D673D96048 /* FAKZocial.m */; };
+		DFE368FBB4A77742FA7FE668B665808D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */; };
+		F067BFF22F911FFD3635181AFC75B2E4 /* Pods-airbnb-cloneUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5469C5A180BAC01D630E0D5811B59F06 /* Pods-airbnb-cloneUITests-dummy.m */; };
+		FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */; };
+		FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D59833936774EBE31FA26754E55A8F39 /* Material-Design-Iconic-Font.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F63419AB485A9B13098606D0723DC84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E1DFAA9703A5C068D915A4C272EA21;
+			remoteInfo = FontAwesomeKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00831CFD3D1385534BF015BAB2F510E0 /* Pods-airbnb-cloneTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-airbnb-cloneTests-umbrella.h"; sourceTree = "<group>"; };
+		0172A862950BD37CA3F207328F878484 /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
+		05A456FD97E20A842756BB54D021806E /* Pods-airbnb-cloneUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-airbnb-cloneUITests.modulemap"; sourceTree = "<group>"; };
+		06D47B5F4A2845073514706BBDBAD42F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06E1A6B5FBA8C85AE17164C0A818C82B /* FontAwesomeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FontAwesomeKit.framework; path = FontAwesomeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08077107A2A943D9FEC7EB98200DDD83 /* Pods-airbnb-clone-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airbnb-clone-acknowledgements.plist"; sourceTree = "<group>"; };
+		18162EA8F4A866BE033E5CC65A3AC824 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		23CD85E18D60D0BFAB64B8DC23EE7C45 /* Pods_airbnb_clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_airbnb_clone.framework; path = "Pods-airbnb-clone.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2436CCE1B9C7AB898A307257E1871730 /* Pods-airbnb-cloneUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airbnb-cloneUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		257727C67DE02B8DE00C3CB25AE764F9 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		26DCC4EA3D7B190A450192081152B381 /* Pods_airbnb_cloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_airbnb_cloneUITests.framework; path = "Pods-airbnb-cloneUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		284D20CE5F1D3CFD9FB5C3B168C79604 /* Pods-airbnb-clone-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airbnb-clone-acknowledgements.markdown"; sourceTree = "<group>"; };
+		33DA1A786EAC503ACEFF76AA922C8555 /* FontAwesomeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-umbrella.h"; sourceTree = "<group>"; };
+		35893E310EBA7248624C0CD39582CCF2 /* Pods-airbnb-cloneUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-cloneUITests-frameworks.sh"; sourceTree = "<group>"; };
+		35B12FDA6077A325BF573FBE7BEACC3A /* Pods-airbnb-cloneUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airbnb-cloneUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		367D40439743E58413BB85A0664618F7 /* FontAwesomeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FontAwesomeKit.modulemap; sourceTree = "<group>"; };
+		496C3E2A76C37339A65BE2B4BBF9A44B /* Pods-airbnb-cloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-cloneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5469C5A180BAC01D630E0D5811B59F06 /* Pods-airbnb-cloneUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airbnb-cloneUITests-dummy.m"; sourceTree = "<group>"; };
+		5C927677E993E79E758E1E80370C4164 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		65771F32033A02053CA6AF69757AC14B /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
+		664D32EB0E8DCBF5BF5D1DBC95E3F469 /* Pods-airbnb-clone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-airbnb-clone.modulemap"; sourceTree = "<group>"; };
+		66D0D5908DCD935C3826B4116FCC529D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		714610FB205AC57B4ADF76B1BF1CA60F /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		731C818CB9523C35145E0FB552DE19B0 /* Pods-airbnb-cloneTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-airbnb-cloneTests.modulemap"; sourceTree = "<group>"; };
+		7494A98982B2E910DEA52CFC4EF17916 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
+		778C82C8F1E1ABCC5C98CB6A5C5CA271 /* Pods-airbnb-clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-clone.release.xcconfig"; sourceTree = "<group>"; };
+		77F5D7583785A4679AEC64ABE0BCEE4F /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		7CDD71B3A4B9117646C856CD62D58C90 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		7DAB8E716DC4B14150994F9B26DF860C /* Pods-airbnb-cloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-cloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80868BFF78EDC137CDC0C3D5843988C5 /* octicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = octicons.ttf; path = FontAwesomeKit/octicons.ttf; sourceTree = "<group>"; };
+		8B39383124D076445B9F42272C798002 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		8D8EE7E441CCB0C515BD3B822A4538FC /* Pods-airbnb-cloneUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-airbnb-cloneUITests-umbrella.h"; sourceTree = "<group>"; };
+		914FF195A73CA905FB7B96E0B0482EF5 /* Pods-airbnb-cloneUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-cloneUITests-resources.sh"; sourceTree = "<group>"; };
+		92B97026382EA50B639B9C876947F721 /* Pods-airbnb-clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-clone.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		956CD1BC1C02216050F78A9A9D2657AA /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
+		9754D187F140D4A336ABEDBB28C5EC6D /* FAKMaterialIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKMaterialIcons.h; path = FontAwesomeKit/FAKMaterialIcons.h; sourceTree = "<group>"; };
+		9D39D84516F8E5B7A4F260EB2E2A7495 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E5E788933F04F04770CD9370D45ED4D /* Pods-airbnb-cloneTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-airbnb-cloneTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9F908330777D6152B9CF6750E3434557 /* FAKOcticons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKOcticons.m; path = FontAwesomeKit/FAKOcticons.m; sourceTree = "<group>"; };
+		A1AAF976459FCC5536AE30E2F4347EFF /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
+		A7A9880ECB182C0211493F9A71FCBB16 /* Pods-airbnb-clone-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-clone-frameworks.sh"; sourceTree = "<group>"; };
+		A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AA3A718E5F4E917CD6DCFA65BC870553 /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		AA99F26F9186BE7278BA6A7249F271C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB7E8562081226D116ED77B6A4BE811C /* Pods-airbnb-clone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-airbnb-clone-umbrella.h"; sourceTree = "<group>"; };
+		AC2839F11E63C031FA05FA3B959BD8E2 /* Pods_airbnb_cloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_airbnb_cloneTests.framework; path = "Pods-airbnb-cloneTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0DD3C17CDD6D1CC785181BF192440B6 /* FAKOcticons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKOcticons.h; path = FontAwesomeKit/FAKOcticons.h; sourceTree = "<group>"; };
+		C37DCD288BB07B95114F8ADC43DB28E9 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		C460D2FE5865D4F53408E9D463967CB6 /* Pods-airbnb-cloneTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-cloneTests-frameworks.sh"; sourceTree = "<group>"; };
+		C4996233AF3898BF2B161FC5C45B936B /* Pods-airbnb-clone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airbnb-clone-dummy.m"; sourceTree = "<group>"; };
+		C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		C85D02AFC6604664F3EEE1ED0D053158 /* Pods-airbnb-cloneTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-cloneTests-resources.sh"; sourceTree = "<group>"; };
+		D32DFAA3EB8B3D7E54534FDF7E5BA47E /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		D40BDF5C5C580A4C0A9DB5D673D96048 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		D59833936774EBE31FA26754E55A8F39 /* Material-Design-Iconic-Font.ttf */ = {isa = PBXFileReference; includeInIndex = 1; name = "Material-Design-Iconic-Font.ttf"; path = "FontAwesomeKit/Material-Design-Iconic-Font.ttf"; sourceTree = "<group>"; };
+		DAED981DBA9EED999651868DECD0ECB4 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
+		DD8EFB6F1E0D98DB0639C4A5DC2FB1AB /* Pods-airbnb-cloneTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-airbnb-cloneTests-dummy.m"; sourceTree = "<group>"; };
+		E0B77C1B0585AA6AB9B5E4B02B086A80 /* Pods-airbnb-cloneTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-airbnb-cloneTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3F19A7856196ECBB21AB971BB0D1B0F /* Pods-airbnb-cloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-cloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5E205E7BA3FC0A703A4BDC0CE37DA30 /* Pods-airbnb-cloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-airbnb-cloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		F708C2EC064B297600F92C2A1AA548E1 /* FAKMaterialIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKMaterialIcons.m; path = FontAwesomeKit/FAKMaterialIcons.m; sourceTree = "<group>"; };
+		F7DC3ABB769FA2517FB1D27D2960A25A /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		FB1E92CFAA8AF8A6E835A29F3BEC70D6 /* Pods-airbnb-clone-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-airbnb-clone-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39B6AA5EEF2BD8A7A9C5598F3A500668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01BC010F1CB58E344209A012929B2803 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		598917E1C02C1D68EB9B7E40A24A940C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B2E26A5D4BCC8B6F5FDC262344A711 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8501462497975B6EFFE9E8FF266B725C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2166C0EC39F6BB2B691B380B539FE8AD /* CoreText.framework in Frameworks */,
+				B98B26D76E50DE44887EDA3096028C46 /* Foundation.framework in Frameworks */,
+				FAA3DAE967FF67C21B6F3F730A9EEB59 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23E720686173A7B9282E4BA6A6319E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE368FBB4A77742FA7FE668B665808D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0991005DB3BF2493DCF422CEDA7A6BEE /* Zocial */ = {
+			isa = PBXGroup;
+			children = (
+				DAED981DBA9EED999651868DECD0ECB4 /* FAKZocial.h */,
+				D40BDF5C5C580A4C0A9DB5D673D96048 /* FAKZocial.m */,
+				8FF028786B8D347CFCE57765C5C7E0FB /* Resources */,
+			);
+			name = Zocial;
+			sourceTree = "<group>";
+		};
+		0E770F5183CB61687C9414FEAD3BFF93 /* Octicons */ = {
+			isa = PBXGroup;
+			children = (
+				C0DD3C17CDD6D1CC785181BF192440B6 /* FAKOcticons.h */,
+				9F908330777D6152B9CF6750E3434557 /* FAKOcticons.m */,
+				FDBBC2374C382FC1A0245DCFEE16047D /* Resources */,
+			);
+			name = Octicons;
+			sourceTree = "<group>";
+		};
+		11088069A597FAE2C115DDEBF06C9CAA /* Pods-airbnb-cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06D47B5F4A2845073514706BBDBAD42F /* Info.plist */,
+				05A456FD97E20A842756BB54D021806E /* Pods-airbnb-cloneUITests.modulemap */,
+				2436CCE1B9C7AB898A307257E1871730 /* Pods-airbnb-cloneUITests-acknowledgements.markdown */,
+				35B12FDA6077A325BF573FBE7BEACC3A /* Pods-airbnb-cloneUITests-acknowledgements.plist */,
+				5469C5A180BAC01D630E0D5811B59F06 /* Pods-airbnb-cloneUITests-dummy.m */,
+				35893E310EBA7248624C0CD39582CCF2 /* Pods-airbnb-cloneUITests-frameworks.sh */,
+				914FF195A73CA905FB7B96E0B0482EF5 /* Pods-airbnb-cloneUITests-resources.sh */,
+				8D8EE7E441CCB0C515BD3B822A4538FC /* Pods-airbnb-cloneUITests-umbrella.h */,
+				E3F19A7856196ECBB21AB971BB0D1B0F /* Pods-airbnb-cloneUITests.debug.xcconfig */,
+				7DAB8E716DC4B14150994F9B26DF860C /* Pods-airbnb-cloneUITests.release.xcconfig */,
+			);
+			name = "Pods-airbnb-cloneUITests";
+			path = "Target Support Files/Pods-airbnb-cloneUITests";
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1CA95E532A8F990E19506982FA04EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3566BFDF9BACC5784A160FBE156529 /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				9754D187F140D4A336ABEDBB28C5EC6D /* FAKMaterialIcons.h */,
+				F708C2EC064B297600F92C2A1AA548E1 /* FAKMaterialIcons.m */,
+				955D9748BC0EB9698EEBE1667D8C608C /* Resources */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		5175995FF5A82F08D362ABD602D1959D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7CC977726525187E7AF04399CD5946A /* FontAwesomeKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5205352DC426796EE7ED7BF2E585075E /* Pods-airbnb-clone */ = {
+			isa = PBXGroup;
+			children = (
+				9D39D84516F8E5B7A4F260EB2E2A7495 /* Info.plist */,
+				664D32EB0E8DCBF5BF5D1DBC95E3F469 /* Pods-airbnb-clone.modulemap */,
+				284D20CE5F1D3CFD9FB5C3B168C79604 /* Pods-airbnb-clone-acknowledgements.markdown */,
+				08077107A2A943D9FEC7EB98200DDD83 /* Pods-airbnb-clone-acknowledgements.plist */,
+				C4996233AF3898BF2B161FC5C45B936B /* Pods-airbnb-clone-dummy.m */,
+				A7A9880ECB182C0211493F9A71FCBB16 /* Pods-airbnb-clone-frameworks.sh */,
+				FB1E92CFAA8AF8A6E835A29F3BEC70D6 /* Pods-airbnb-clone-resources.sh */,
+				AB7E8562081226D116ED77B6A4BE811C /* Pods-airbnb-clone-umbrella.h */,
+				92B97026382EA50B639B9C876947F721 /* Pods-airbnb-clone.debug.xcconfig */,
+				778C82C8F1E1ABCC5C98CB6A5C5CA271 /* Pods-airbnb-clone.release.xcconfig */,
+			);
+			name = "Pods-airbnb-clone";
+			path = "Target Support Files/Pods-airbnb-clone";
+			sourceTree = "<group>";
+		};
+		535B3CE731EA6742BCAF6B4C5D5CC7C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77F5D7583785A4679AEC64ABE0BCEE4F /* ionicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5E2C1E17BF7B76EB902A2E57A8852639 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				C37DCD288BB07B95114F8ADC43DB28E9 /* FAKFontAwesome.h */,
+				5C927677E993E79E758E1E80370C4164 /* FAKFontAwesome.m */,
+				A0F8DFC10BCD8F45C49FE437A4E78E0C /* Resources */,
+			);
+			name = FontAwesome;
+			sourceTree = "<group>";
+		};
+		60A6770DC2139EBD772C952790C8CC27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06E1A6B5FBA8C85AE17164C0A818C82B /* FontAwesomeKit.framework */,
+				23CD85E18D60D0BFAB64B8DC23EE7C45 /* Pods_airbnb_clone.framework */,
+				AC2839F11E63C031FA05FA3B959BD8E2 /* Pods_airbnb_cloneTests.framework */,
+				26DCC4EA3D7B190A450192081152B381 /* Pods_airbnb_cloneUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E37BC34793181B09217291941C14AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				367D40439743E58413BB85A0664618F7 /* FontAwesomeKit.modulemap */,
+				AA3A718E5F4E917CD6DCFA65BC870553 /* FontAwesomeKit.xcconfig */,
+				0172A862950BD37CA3F207328F878484 /* FontAwesomeKit-dummy.m */,
+				714610FB205AC57B4ADF76B1BF1CA60F /* FontAwesomeKit-prefix.pch */,
+				33DA1A786EAC503ACEFF76AA922C8555 /* FontAwesomeKit-umbrella.h */,
+				66D0D5908DCD935C3826B4116FCC529D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		7331F7D38C15C2EFE56851617926F157 /* IonIcons */ = {
+			isa = PBXGroup;
+			children = (
+				8B39383124D076445B9F42272C798002 /* FAKIonIcons.h */,
+				F7DC3ABB769FA2517FB1D27D2960A25A /* FAKIonIcons.m */,
+				535B3CE731EA6742BCAF6B4C5D5CC7C0 /* Resources */,
+			);
+			name = IonIcons;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5175995FF5A82F08D362ABD602D1959D /* Pods */,
+				60A6770DC2139EBD772C952790C8CC27 /* Products */,
+				C8D957CFACD21D816927C7F35F4D7224 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF028786B8D347CFCE57765C5C7E0FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD71B3A4B9117646C856CD62D58C90 /* zocial-regular-webfont.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		955D9748BC0EB9698EEBE1667D8C608C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D59833936774EBE31FA26754E55A8F39 /* Material-Design-Iconic-Font.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9A0AEFA063A480C75A8354B6AD29715E /* Pods-airbnb-cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA99F26F9186BE7278BA6A7249F271C0 /* Info.plist */,
+				731C818CB9523C35145E0FB552DE19B0 /* Pods-airbnb-cloneTests.modulemap */,
+				E0B77C1B0585AA6AB9B5E4B02B086A80 /* Pods-airbnb-cloneTests-acknowledgements.markdown */,
+				9E5E788933F04F04770CD9370D45ED4D /* Pods-airbnb-cloneTests-acknowledgements.plist */,
+				DD8EFB6F1E0D98DB0639C4A5DC2FB1AB /* Pods-airbnb-cloneTests-dummy.m */,
+				C460D2FE5865D4F53408E9D463967CB6 /* Pods-airbnb-cloneTests-frameworks.sh */,
+				C85D02AFC6604664F3EEE1ED0D053158 /* Pods-airbnb-cloneTests-resources.sh */,
+				00831CFD3D1385534BF015BAB2F510E0 /* Pods-airbnb-cloneTests-umbrella.h */,
+				496C3E2A76C37339A65BE2B4BBF9A44B /* Pods-airbnb-cloneTests.debug.xcconfig */,
+				F5E205E7BA3FC0A703A4BDC0CE37DA30 /* Pods-airbnb-cloneTests.release.xcconfig */,
+			);
+			name = "Pods-airbnb-cloneTests";
+			path = "Target Support Files/Pods-airbnb-cloneTests";
+			sourceTree = "<group>";
+		};
+		A0F8DFC10BCD8F45C49FE437A4E78E0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7494A98982B2E910DEA52CFC4EF17916 /* FontAwesome.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE705DAA94BF1C35524294CFAD593917 /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				956CD1BC1C02216050F78A9A9D2657AA /* FAKFoundationIcons.h */,
+				A1AAF976459FCC5536AE30E2F4347EFF /* FAKFoundationIcons.m */,
+				D09384B7160F4E7447204CB1FC5960F8 /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		C8D957CFACD21D816927C7F35F4D7224 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5205352DC426796EE7ED7BF2E585075E /* Pods-airbnb-clone */,
+				9A0AEFA063A480C75A8354B6AD29715E /* Pods-airbnb-cloneTests */,
+				11088069A597FAE2C115DDEBF06C9CAA /* Pods-airbnb-cloneUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D09384B7160F4E7447204CB1FC5960F8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D32DFAA3EB8B3D7E54534FDF7E5BA47E /* foundation-icons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D3ABEE0857CBA76D1AD9E80AD4291D0C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				257727C67DE02B8DE00C3CB25AE764F9 /* FAKIcon.h */,
+				18162EA8F4A866BE033E5CC65A3AC824 /* FAKIcon.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F7CC977726525187E7AF04399CD5946A /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				65771F32033A02053CA6AF69757AC14B /* FontAwesomeKit.h */,
+				D3ABEE0857CBA76D1AD9E80AD4291D0C /* Core */,
+				5E2C1E17BF7B76EB902A2E57A8852639 /* FontAwesome */,
+				BE705DAA94BF1C35524294CFAD593917 /* FoundationIcons */,
+				7331F7D38C15C2EFE56851617926F157 /* IonIcons */,
+				2B3566BFDF9BACC5784A160FBE156529 /* Material */,
+				0E770F5183CB61687C9414FEAD3BFF93 /* Octicons */,
+				60E37BC34793181B09217291941C14AB /* Support Files */,
+				0991005DB3BF2493DCF422CEDA7A6BEE /* Zocial */,
+			);
+			name = FontAwesomeKit;
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		FDBBC2374C382FC1A0245DCFEE16047D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80868BFF78EDC137CDC0C3D5843988C5 /* octicons.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF1CA95E532A8F990E19506982FA04EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C55C580E1FC5B6E9F442FE42A9553FEA /* CoreText.framework */,
+				A7AF639F48630A369AAB591B5B339CC8 /* Foundation.framework */,
+				27BE1AF8CEE8818CBCFD0010AE8BEE51 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20FB8FD1010CCB1D8CDFB17C1CEE0D99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE81B259ECEC5146BF11020FD5DE3CA /* Pods-airbnb-cloneUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A9B90EDA829D9018AEE8A0BDA555DC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E006091C5B7912E5147003B04840B46 /* Pods-airbnb-clone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF933365F7C3E1F06DEC61034BEA127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5093F84F27DF70B22CA692D3485AF2DB /* FAKFontAwesome.h in Headers */,
+				70644D2FAACDCB954D268086F220F534 /* FAKFoundationIcons.h in Headers */,
+				3964A2B00BB8619003961BD7D3BD1AF1 /* FAKIcon.h in Headers */,
+				D26832C96E013704F116A04D12D9B10D /* FAKIonIcons.h in Headers */,
+				8267189738A27E9FB0B3B61F0B2C84CA /* FAKMaterialIcons.h in Headers */,
+				1872CD2DA576F188DAFBE6CCA3EC4DCF /* FAKOcticons.h in Headers */,
+				332E15E9E986025C0150030E720D976A /* FAKZocial.h in Headers */,
+				99D62A3C6928E8C7BD61E2C98E5A360F /* FontAwesomeKit-umbrella.h in Headers */,
+				9BF8930E69FAFBCFCA70563E4775913F /* FontAwesomeKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54266723C6531FF41296D5DE9FDF711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1D30CD76D52F393226A2B2581430F9 /* Pods-airbnb-cloneTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71F5B2515C065ADC9389746FDDD94A3F /* Pods-airbnb-cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2751B30794C51B7E044FB9120C313DC /* Build configuration list for PBXNativeTarget "Pods-airbnb-cloneTests" */;
+			buildPhases = (
+				1B5FCCA6540416278281D66E8B9DE116 /* Sources */,
+				F23E720686173A7B9282E4BA6A6319E1 /* Frameworks */,
+				B54266723C6531FF41296D5DE9FDF711 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-airbnb-cloneTests";
+			productName = "Pods-airbnb-cloneTests";
+			productReference = AC2839F11E63C031FA05FA3B959BD8E2 /* Pods_airbnb_cloneTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				1C11690BF49CDCBB7017548784E319D7 /* Sources */,
+				8501462497975B6EFFE9E8FF266B725C /* Frameworks */,
+				8FF933365F7C3E1F06DEC61034BEA127 /* Headers */,
+				F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 06E1A6B5FBA8C85AE17164C0A818C82B /* FontAwesomeKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA7FCD17745269FD485F2B4F5B33DE8B /* Pods-airbnb-clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09063A8EC5CF7FB9A23C73E4D5001844 /* Build configuration list for PBXNativeTarget "Pods-airbnb-clone" */;
+			buildPhases = (
+				CC8AAC52A4ED33C184361DB0155CCF0D /* Sources */,
+				598917E1C02C1D68EB9B7E40A24A940C /* Frameworks */,
+				3A9B90EDA829D9018AEE8A0BDA555DC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEAAABB7BA8BB1E477499163066BF1A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-airbnb-clone";
+			productName = "Pods-airbnb-clone";
+			productReference = 23CD85E18D60D0BFAB64B8DC23EE7C45 /* Pods_airbnb_clone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F13E2B378CE9A68E39335B3FA35CE77D /* Pods-airbnb-cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E51E36F815D78832981DD7FB475B86D /* Build configuration list for PBXNativeTarget "Pods-airbnb-cloneUITests" */;
+			buildPhases = (
+				274CE08DE31E492AD5776FD3151E148F /* Sources */,
+				39B6AA5EEF2BD8A7A9C5598F3A500668 /* Frameworks */,
+				20FB8FD1010CCB1D8CDFB17C1CEE0D99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-airbnb-cloneUITests";
+			productName = "Pods-airbnb-cloneUITests";
+			productReference = 26DCC4EA3D7B190A450192081152B381 /* Pods_airbnb_cloneUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 60A6770DC2139EBD772C952790C8CC27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */,
+				DA7FCD17745269FD485F2B4F5B33DE8B /* Pods-airbnb-clone */,
+				71F5B2515C065ADC9389746FDDD94A3F /* Pods-airbnb-cloneTests */,
+				F13E2B378CE9A68E39335B3FA35CE77D /* Pods-airbnb-cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22AB6CB1A0587A4E4A25F8446D0984F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61FA9EF01CB62B6F8F33C42E50CAF536 /* FontAwesome.otf in Resources */,
+				1769170427A6B5C9688007764866EDDA /* foundation-icons.ttf in Resources */,
+				A6D1C9304CF49244EB5D99A69971A8EE /* ionicons.ttf in Resources */,
+				FDFB10982DFB0AE07FB9571456B05CC7 /* Material-Design-Iconic-Font.ttf in Resources */,
+				0281A099B6DF240CD72EE130618B1B0F /* octicons.ttf in Resources */,
+				6A72C8E44A0E2774C76D073F982E117F /* zocial-regular-webfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B5FCCA6540416278281D66E8B9DE116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3603AD2F9DEDA25F609ACCDF421A4B81 /* Pods-airbnb-cloneTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C11690BF49CDCBB7017548784E319D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113902E55762062A2D48B56D8DAA0532 /* FAKFontAwesome.m in Sources */,
+				4B7E574AEF9BAB8E643CCBA149E8A85F /* FAKFoundationIcons.m in Sources */,
+				37DA891DDA5E91349A6E7CEF0465CC51 /* FAKIcon.m in Sources */,
+				6B3C2778C40F244D98903E993A211EB5 /* FAKIonIcons.m in Sources */,
+				BB377AC3B7923B0182478FB34EAAC42D /* FAKMaterialIcons.m in Sources */,
+				5832280486E1376CBD13F70A8C6F02C6 /* FAKOcticons.m in Sources */,
+				D327632C06E3B012E8956FFC6A4219EB /* FAKZocial.m in Sources */,
+				C7DA2447575E683C18E8A452A886B85C /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274CE08DE31E492AD5776FD3151E148F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F067BFF22F911FFD3635181AFC75B2E4 /* Pods-airbnb-cloneUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC8AAC52A4ED33C184361DB0155CCF0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759D6907B559283E39BF4D86ACB16ACE /* Pods-airbnb-clone-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEAAABB7BA8BB1E477499163066BF1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = A8E1DFAA9703A5C068D915A4C272EA21 /* FontAwesomeKit */;
+			targetProxy = F63419AB485A9B13098606D0723DC84C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		012BD52FCAF248B68B53CB7287F2B509 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DAB8E716DC4B14150994F9B26DF860C /* Pods-airbnb-cloneUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-cloneUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-cloneUITests/Pods-airbnb-cloneUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_cloneUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2201C168CA979E9D797C021FE0412160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E205E7BA3FC0A703A4BDC0CE37DA30 /* Pods-airbnb-cloneTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-cloneTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-cloneTests/Pods-airbnb-cloneTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_cloneTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4DE7FADE63BFD3BCA6DC41C78C2F66B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F19A7856196ECBB21AB971BB0D1B0F /* Pods-airbnb-cloneUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-cloneUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-cloneUITests/Pods-airbnb-cloneUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_cloneUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		897C54121A03461249DF5C5A6A128FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A718E5F4E917CD6DCFA65BC870553 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97FF025722DE8177C5E1883A9BAD56B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496C3E2A76C37339A65BE2B4BBF9A44B /* Pods-airbnb-cloneTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-cloneTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-cloneTests/Pods-airbnb-cloneTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_cloneTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A058CD170AC6C2B9CEFE8A3E0FFC1024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 778C82C8F1E1ABCC5C98CB6A5C5CA271 /* Pods-airbnb-clone.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-clone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-clone/Pods-airbnb-clone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_clone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC1AE99970EAFE23526183C4C73835AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3A718E5F4E917CD6DCFA65BC870553 /* FontAwesomeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FontAwesomeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FontAwesomeKit/FontAwesomeKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FontAwesomeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB1B7AA204B1FF69221C654AEB3EAE7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92B97026382EA50B639B9C876947F721 /* Pods-airbnb-clone.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-airbnb-clone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-airbnb-clone/Pods-airbnb-clone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_airbnb_clone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF0251B435B1FD8A5D405A1E79A639 /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				897C54121A03461249DF5C5A6A128FDC /* Debug */,
+				EC1AE99970EAFE23526183C4C73835AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09063A8EC5CF7FB9A23C73E4D5001844 /* Build configuration list for PBXNativeTarget "Pods-airbnb-clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB1B7AA204B1FF69221C654AEB3EAE7A /* Debug */,
+				A058CD170AC6C2B9CEFE8A3E0FFC1024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC80BBB5C066539FFFC0B2127CA5D3C4 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E51E36F815D78832981DD7FB475B86D /* Build configuration list for PBXNativeTarget "Pods-airbnb-cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DE7FADE63BFD3BCA6DC41C78C2F66B8 /* Debug */,
+				012BD52FCAF248B68B53CB7287F2B509 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2751B30794C51B7E044FB9120C313DC /* Build configuration list for PBXNativeTarget "Pods-airbnb-cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FF025722DE8177C5E1883A9BAD56B2 /* Debug */,
+				2201C168CA979E9D797C021FE0412160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

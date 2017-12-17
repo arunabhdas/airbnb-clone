@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zPj-Lm-nyu">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--favorite-->
+        <scene sceneID="XKk-81-M3r">
+            <objects>
+                <viewController id="gbh-eR-IKq" customClass="FavoriteViewController" customModule="airbnb_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="82r-dZ-zxV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="TBx-6J-G4J"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="favorite" image="heart" id="bos-kM-At2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qHY-bh-Dhc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="-78"/>
+        </scene>
+        <!--Trip-->
+        <scene sceneID="eVK-iE-8kD">
+            <objects>
+                <viewController title="Trip" id="PyB-EM-vSR" customClass="TripViewController" customModule="airbnb_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d8C-3j-AB8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="3ul-BZ-Vjt"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="travel" image="departures" id="iAP-gg-gZv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdG-DI-mwc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="340" y="626"/>
+        </scene>
+        <!--message-->
+        <scene sceneID="3NZ-FW-Tj5">
+            <objects>
+                <viewController id="ZOv-4j-r7f" customClass="MessageViewController" customModule="airbnb_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rNJ-7T-OR6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="wMb-mO-doX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="message" image="chat" id="ndr-PQ-8XH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BKL-Rv-WSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-446" y="601"/>
+        </scene>
+        <!--search-->
+        <scene sceneID="q0Q-Nm-nTc">
+            <objects>
+                <viewController id="HOP-z1-rkj" customClass="SearchViewController" customModule="airbnb_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nJ0-EL-99z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UuL-l9-OZb" userLabel="Header" customClass="SearchExpandableHeader" customModule="airbnb_clone" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="体験" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mTw-0v-OzG" customClass="IBDesignableTextField" customModule="airbnb_clone" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="30" width="374" height="40"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="3PY-gZ-QqB"/>
+                                        </constraints>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="0.20000000000000001"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="2" height="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="YQf-2K-Fqq">
+                                        <rect key="frame" x="20" y="84" width="331.33333333333331" height="40"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="54w-cu-cBS" customClass="IBDesignableButton" customModule="airbnb_clone" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="5.6666666666666714" width="178" height="29"/>
+                                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                                <state key="normal" title="すべての日付">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.20000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="2" height="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOK-De-jMx" userLabel="ゲスト1人" customClass="IBDesignableButton" customModule="airbnb_clone" customModuleProvider="target">
+                                                <rect key="frame" x="188" y="5.6666666666666714" width="143.33333333333337" height="29"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <inset key="titleEdgeInsets" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                                                <state key="normal" title="ゲスト1人">
+                                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderShadow">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                        <real key="value" value="0.20000000000000001"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                        <real key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                        <real key="value" value="1"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                        <size key="value" width="2" height="2"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="c3V-B1-mkl"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="mTw-0v-OzG" firstAttribute="leading" secondItem="UuL-l9-OZb" secondAttribute="leading" constant="20" id="1nW-l8-Qp9"/>
+                                    <constraint firstItem="YQf-2K-Fqq" firstAttribute="leading" secondItem="UuL-l9-OZb" secondAttribute="leading" constant="20" id="6wL-hK-dNz"/>
+                                    <constraint firstItem="YQf-2K-Fqq" firstAttribute="width" secondItem="UuL-l9-OZb" secondAttribute="width" multiplier="0.8" id="Gyg-rV-AhI"/>
+                                    <constraint firstItem="mTw-0v-OzG" firstAttribute="top" secondItem="UuL-l9-OZb" secondAttribute="top" constant="30" id="L78-5e-HZM"/>
+                                    <constraint firstItem="YQf-2K-Fqq" firstAttribute="top" secondItem="mTw-0v-OzG" secondAttribute="bottom" constant="14" id="QeB-QG-Uiq"/>
+                                    <constraint firstAttribute="height" constant="140" id="XvY-VI-cq5"/>
+                                    <constraint firstAttribute="trailing" secondItem="mTw-0v-OzG" secondAttribute="trailing" constant="20" id="iaf-sb-mOR"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="_heightConstraint" destination="XvY-VI-cq5" id="uWK-A3-wMR"/>
+                                    <outlet property="searchConditionsView" destination="YQf-2K-Fqq" id="6la-kd-ADo"/>
+                                </connections>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" estimatedRowHeight="200" sectionHeaderHeight="60" sectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YwG-4v-Heo">
+                                <rect key="frame" x="20" y="140" width="374" height="547"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="SearchCollectionCell" rowHeight="200" id="5v2-1R-BTU" customClass="SearchCollectionCell" customModule="airbnb_clone" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="60" width="374" height="200"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5v2-1R-BTU" id="L0m-1K-4qx">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="199.66666666666666"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YAy-eD-HYa">
+                                                    <rect key="frame" x="0.0" y="59.999999999999986" width="374" height="139.66666666666663"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zBT-if-PEv">
+                                                        <size key="itemSize" width="140" height="140"/>
+                                                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                    </collectionViewFlowLayout>
+                                                    <cells>
+                                                        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SearchItemCell" id="q4m-Aj-abP" customClass="SearchItemCell" customModule="airbnb_clone" customModuleProvider="target">
+                                                            <rect key="frame" x="0.0" y="-0.33333333333333331" width="140" height="140"/>
+                                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                                                <autoresizingMask key="autoresizingMask"/>
+                                                                <subviews>
+                                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="travel_0_0" translatesAutoresizingMaskIntoConstraints="NO" id="BtH-wB-TeS">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="92"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="140" id="tvO-ae-qux"/>
+                                                                            <constraint firstAttribute="height" constant="92" id="txi-ME-lgB"/>
+                                                                        </constraints>
+                                                                    </imageView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wwR-aI-aUP">
+                                                                        <rect key="frame" x="10" y="102" width="100" height="20"/>
+                                                                        <subviews>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="DK3-Ug-MIB">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            </imageView>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="FGf-jd-hQD">
+                                                                                <rect key="frame" x="20" y="0.0" width="20" height="20"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            </imageView>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-0L-Sl5">
+                                                                                <rect key="frame" x="40" y="-0.66666666666665719" width="20" height="20"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            </imageView>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="re8-MH-d5v">
+                                                                                <rect key="frame" x="60" y="0.0" width="20" height="20"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            </imageView>
+                                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="GDY-ML-hl2">
+                                                                                <rect key="frame" x="80" y="0.0" width="20" height="20"/>
+                                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                                            </imageView>
+                                                                        </subviews>
+                                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="width" constant="100" id="3wT-81-CfP"/>
+                                                                            <constraint firstAttribute="height" constant="20" id="fbG-W8-DeQ"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                            </view>
+                                                            <constraints>
+                                                                <constraint firstItem="wwR-aI-aUP" firstAttribute="leading" secondItem="q4m-Aj-abP" secondAttribute="leading" constant="10" id="Jqu-Dp-u3n"/>
+                                                                <constraint firstItem="BtH-wB-TeS" firstAttribute="top" secondItem="q4m-Aj-abP" secondAttribute="top" id="Nwo-gS-0bo"/>
+                                                                <constraint firstItem="wwR-aI-aUP" firstAttribute="top" secondItem="BtH-wB-TeS" secondAttribute="bottom" constant="10" id="Twg-HY-yf3"/>
+                                                                <constraint firstItem="BtH-wB-TeS" firstAttribute="leading" secondItem="q4m-Aj-abP" secondAttribute="leading" id="oov-hn-Zfo"/>
+                                                            </constraints>
+                                                            <connections>
+                                                                <outlet property="starRatingView" destination="wwR-aI-aUP" id="knl-Zm-dEM"/>
+                                                                <outlet property="thumbnail" destination="BtH-wB-TeS" id="s8B-L8-AOw"/>
+                                                            </connections>
+                                                        </collectionViewCell>
+                                                    </cells>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="5v2-1R-BTU" id="3jd-ns-MWg"/>
+                                                        <outlet property="delegate" destination="5v2-1R-BTU" id="tVd-Tu-7e2"/>
+                                                    </connections>
+                                                </collectionView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dCP-Qz-LBj">
+                                                    <rect key="frame" x="10" y="0.0" width="300" height="60"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="YAy-eD-HYa" secondAttribute="bottom" id="2AB-m4-bPb"/>
+                                                <constraint firstAttribute="trailing" secondItem="YAy-eD-HYa" secondAttribute="trailing" id="9dk-Db-igL"/>
+                                                <constraint firstItem="YAy-eD-HYa" firstAttribute="leading" secondItem="L0m-1K-4qx" secondAttribute="leading" id="TQj-f3-QlZ"/>
+                                                <constraint firstItem="YAy-eD-HYa" firstAttribute="top" secondItem="L0m-1K-4qx" secondAttribute="top" constant="60" id="rKe-T2-e9E"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="collectionView" destination="YAy-eD-HYa" id="cuU-Mm-WbA"/>
+                                            <outlet property="titleLabel" destination="dCP-Qz-LBj" id="E8l-Wo-0Yg"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="YwG-4v-Heo" firstAttribute="bottom" secondItem="Mip-Zu-B2B" secondAttribute="bottom" id="0Yb-gT-rFI"/>
+                            <constraint firstItem="YwG-4v-Heo" firstAttribute="leading" secondItem="Mip-Zu-B2B" secondAttribute="leading" constant="20" id="51T-7p-d6q"/>
+                            <constraint firstItem="UuL-l9-OZb" firstAttribute="leading" secondItem="Mip-Zu-B2B" secondAttribute="leading" id="STa-NP-BNw"/>
+                            <constraint firstItem="Mip-Zu-B2B" firstAttribute="trailing" secondItem="YwG-4v-Heo" secondAttribute="trailing" constant="20" id="W7G-hV-ACI"/>
+                            <constraint firstItem="Mip-Zu-B2B" firstAttribute="top" secondItem="UuL-l9-OZb" secondAttribute="top" constant="20" id="i5j-Is-Zes"/>
+                            <constraint firstItem="UuL-l9-OZb" firstAttribute="width" secondItem="Mip-Zu-B2B" secondAttribute="width" id="or9-3i-dmb"/>
+                            <constraint firstItem="YwG-4v-Heo" firstAttribute="top" secondItem="UuL-l9-OZb" secondAttribute="bottom" id="umJ-75-hHR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mip-Zu-B2B"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="search" image="search" id="fsd-KV-VfO">
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="name" value="Search"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="expandableHeader" destination="UuL-l9-OZb" id="hrK-rA-P6P"/>
+                        <outlet property="searchByDateButton" destination="54w-cu-cBS" id="K9r-PL-4oL"/>
+                        <outlet property="searchByNumberOfPeopleButton" destination="JOK-De-jMx" id="Zge-3A-Q7Z"/>
+                        <outlet property="tableView" destination="YwG-4v-Heo" id="0ua-6a-ITT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kl0-Sb-0zE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311.59420289855075" y="-742.66304347826087"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="bAK-fY-Kjn">
+            <objects>
+                <tabBarController id="zPj-Lm-nyu" customClass="MainViewController" customModule="airbnb_clone" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qmk-0E-dh8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="1" green="0.31372549019607843" blue="0.32941176470588235" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="HOP-z1-rkj" kind="relationship" relationship="viewControllers" id="cux-g4-289"/>
+                        <segue destination="gbh-eR-IKq" kind="relationship" relationship="viewControllers" id="v49-gX-4tV"/>
+                        <segue destination="PyB-EM-vSR" kind="relationship" relationship="viewControllers" id="Ew9-3g-POs"/>
+                        <segue destination="ZOv-4j-r7f" kind="relationship" relationship="viewControllers" id="t9R-Bf-Wf2"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sn8-Jq-fBv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-654" y="-403"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chat" width="16" height="16"/>
+        <image name="departures" width="16" height="16"/>
+        <image name="heart" width="16" height="16"/>
+        <image name="search" width="16" height="16"/>
+        <image name="star" width="32" height="32"/>
+        <image name="travel_0_0" width="800" height="533"/>
+    </resources>
+</document>
